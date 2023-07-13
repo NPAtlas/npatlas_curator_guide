@@ -1,9 +1,9 @@
-title: "NP Analyst documentation"
+title: "NP Atlas Curation Guide"
 remote_theme: pmarsceill/just-the-docs
 theme: just-the-docs
 
-baseurl: "/npanalyst_documentation" # the subpath of your site, e.g. /blog
-url: "https://liningtonlab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/npatlas_curator_guide" # the subpath of your site, e.g. /blog
+url: "https://npatlas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 search_enabled: true
 search:
@@ -39,5 +39,5 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 aux_links:
-  "NP Analyst documentation":
-    - "//github.com/liningtonlab/npanalyst_documentation"
+  "NP Atlas Curation Guide":
+    - "//github.com/NPAtlas/npatlas_curator_guide"
