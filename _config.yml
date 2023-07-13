@@ -38,5 +38,5 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 aux_links:
-  "NP Atlas Curation Guide":
+  "Edit on Github":
     - "//github.com/NPAtlas/npatlas_curator_guide"
