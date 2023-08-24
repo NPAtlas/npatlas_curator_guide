@@ -54,6 +54,54 @@ A: No thank you. We only want the new compounds. Sometimes it can be tricky to f
 
 * * *
 
+Q: _“This is not an original isolation but it is the first time that the compound has been found naturally from a microbial source. Should I curate this?”_
+
+A: Yes as this should be the first appearance the compound will have in the atlas.
+
+* * *
+
+Q: _“How should I approach enantiomers”_
+
+A: If they have actually been separated please put them as separate compounds. If not then put them as (±)-compound A.
+
+* * *
+
+Q: _“The paper is not an original isolation paper but it is the first time that the enantiomers have been separated. Should I curate this?”_
+
+A: If it is not already in the atlas then include. If it is then flag this as "needs work".
+
+* * *
+
+Q: _“The new compound does not have a name. What should I call it?”_
+
+A: If there is no trivial or IUPAC name at all, or if it is only called ‘compound 1’ then please put the name as ‘Not named’.
+
+* * *
+
+Q: _“I have come across a new compound structure but the name has been used before (e.g. Aspergilline A has been ‘discovered’ twice, but each with a different structure).”_
+
+A: Curate this anyway, would be helpful if you could leave a comment regarding this in the notes box.
+
+* * *
+
+Q: _“Should the compound be added to the atlas if the paper only shows partial elucidation of the structure? e.g.: missing functional groups”_
+
+A: Disregard compounds that do not have the full structure elucidated. We will accept papers that provide the full planar structure even if the stereochemistry is unknown, but not papers where there is ambiguity about the structure itself.
+
+* * *
+
+Q: _“What should I do if a compound that was newly discovered by a paper has the same structure as a compound that was characterized in a previous paper but has a different name and source organism? (both reported as new) ”_
+
+A: Make sure that the compounds are identical (they could potentially have different stereochemistry) and if they are identical, report the one that was the first to be discovered.  Please also add a  note that there is another paper with a synonym, and give the other citation and name in the notes.
+
+* * *
+
+Q: _“The compounds were not properly isolated, but annotated with MS. Should I reject this paper?”_
+
+A: In general, we reject MS-only papers. The only exception are cases where one compound was fully solved with MS and NMR and then other members were solved using MS. In those cases we will accept them all.
+
+* * *
+
 #### Citations
 
 Q: _“The citation data is correct, but the doi is missing”_
@@ -82,6 +130,13 @@ A: Please delete this. Author list should be authors only.
 
 #### Source organisms
 
+Q: _“What source organisms should I include?”_
+
+A: Include: bacteria, fungi, yeast, mushrooms, lichen, cyanobacteria.
+   Disregard: plants, animals, insects, corals, protists, phytoplankton.
+
+* * *
+
 Q: _“The authors only report the taxonomy to the genus level”_
 
 A: This is OK. Put ‘Streptomyces sp.’ (or whatever the genus is) in the source organism box.
@@ -97,6 +152,12 @@ A: Put ‘unknown bacterium’ (or fungus) in the source organism box.
 Q: _“The fungus is a plant endophyte. Should I include the plant in the list of sources?”_
 
 A: No. We are only capturing data about the actual microbial source organisms.
+
+* * *
+
+Q: _“Should I include the strain?”_
+
+A: Yes. You should this like the following "*Talaromyces sp. SCSIO 041201*".
 
 * * *
 
@@ -122,17 +183,25 @@ A: These are OK.
 
 Q: _“What is the policy about co-culture?”_
 
-A: Compounds derived from co-culture are fine. If the producing strain is known, just include this one in the source organism box. If it is not known which source organism produces it, include both source organisms as separate entries in the source organism box.
+A: Compounds derived from co-culture are fine. If the producing strain is known, just include this one in the source organism box. If it is not known which source organism produces it, you can put ‘Co-culture’ and include both source organisms as separate entries in the source organism box.
 
 * * *
 
 #### Biosynthesis/ genetic manipulation
 
-**In general you should follow the rule that the NP Atlas only includes compounds if they could plausibly be found in nature.**
+**In general you should follow the rule that the NP Atlas only includes compounds if they could plausibly be found in nature**
+
+**(No semi-synthesis, no biotransformation, no non-natural BGC products (e.g. from deleting genes etc).**
 
 Q: _“Should I include compounds from heterologous expression?”_
 
 A: Yes. Provided that the work incorporated an entire biosynthetic gene cluster. In these cases, the source organism is the organism from which the cluster was derived (if known), or ‘eDNA’ if derived from DNA assemblages.
+
+* * *
+
+Q: _“When an article talks about heterologous expression in a new host, which microorganism would be the source organism? ”_
+
+A: The source organism would be the one that originally has the gene/DNA in their genome, the host organism would not be the source organism.
 
 * * *
 
@@ -148,6 +217,18 @@ A: These are OK.
 
 * * *
 
+Q: _“What about microbial transformation of a plant metabolite?”_
+
+A: Biotransformation is not OK. We only want true NPs that are found in the environment.
+
+* * *
+
 Q: _“What about shunt products made by deleting enzymes in the pathway?”_
 
 A: Nope. This is considered ‘non-natural’. It would be helpful if you could put ‘Biosynthetic engineering’ in the notes box in case we decide later on to go back and include these.
+
+* * *
+
+Q: _“If a genetic modification is made in a microorganism to help the expression of a gene such as the deletion of another gene to help express cryptic genes, would the produced natural product from the mutant organism be curated? ”_
+
+A: This is more difficult because it depends on the type of genetic modification. If the mutation (deletion, insertion…) does not alter the structure of the produced natural product, then it is a natural product that we are interested in adding to the atlas.  If the mutation alters the structures to give new “unnatural” natural products, then it is disregarded (ex: synthetic biology, genetically modifying enzymes such as PKS and NRPS…).
