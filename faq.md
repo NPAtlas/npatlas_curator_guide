@@ -102,6 +102,15 @@ A: In general, we reject MS-only papers. The only exception are cases where one 
 
 * * *
 
+Q: _“I have found compounds missing from the atlas but the paper I am curating is not the original isolation. What should I do with this?”_
+
+A: If there are any incorrect/missing compounds you notice whilst curating we would very much so appreciate it if they could be logged on the atlas website under the additions and corrections tab. You will need to make an account for this as this is the np atlas website, not the curator site.
+
+https://www.npatlas.org/corrections
+
+* * *
+
+
 #### Citations
 
 Q: _“The citation data is correct, but the doi is missing”_
